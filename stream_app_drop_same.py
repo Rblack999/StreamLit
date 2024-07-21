@@ -43,7 +43,7 @@ if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
 # Title
-st.title('Auto-updating DataFrame Plotting in Streamlit with Matplotlib')
+st.title('CCUS Deposition - Live Data Stream')
 
 # File uploader
 uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
